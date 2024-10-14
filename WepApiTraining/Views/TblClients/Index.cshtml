@@ -1,0 +1,233 @@
+﻿@model IEnumerable<WepApiTraining.Models.TblTcClient>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClCodeGescom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClCodePmi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BClDesactive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClTransfertPmi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BClTransfertOk)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateClMajFiche)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivSociete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClRevendeur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivAdr1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivAdr2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivAdr3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivCodePostal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivVille)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClLivPays)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClTel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LhtClWeb)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClActivite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClMetier)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClProduits)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClOrigineContact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClInfo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NClPriorite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClPriorite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateClCreationFiche)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateClPremierContact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateClDernierContact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClStatutCommercial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClStatutClient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NClKm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrClFax)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LnkIdrevendeur)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StrNomCourt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SsmaTimeStamp)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClCodeGescom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClCodePmi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BClDesactive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClTransfertPmi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BClTransfertOk)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateClMajFiche)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivSociete)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClRevendeur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivAdr1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivAdr2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivAdr3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivCodePostal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivVille)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClLivPays)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClTel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LhtClWeb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClActivite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClMetier)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClProduits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClOrigineContact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClInfo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NClPriorite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClPriorite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateClCreationFiche)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateClPremierContact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateClDernierContact)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClStatutCommercial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClStatutClient)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NClKm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrClFax)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LnkIdrevendeur)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StrNomCourt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SsmaTimeStamp)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idclient">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idclient">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idclient">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,158 @@
+﻿@model WepApiTraining.Models.TblTcClient
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>TblTcClient</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StrClCodeGescom" class="control-label"></label>
+                <input asp-for="StrClCodeGescom" class="form-control" />
+                <span asp-validation-for="StrClCodeGescom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClTransfertPmi" class="control-label"></label>
+                <input asp-for="StrClTransfertPmi" class="form-control" />
+                <span asp-validation-for="StrClTransfertPmi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateClMajFiche" class="control-label"></label>
+                <input asp-for="DateClMajFiche" class="form-control" />
+                <span asp-validation-for="DateClMajFiche" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivSociete" class="control-label"></label>
+                <input asp-for="StrClLivSociete" class="form-control" />
+                <span asp-validation-for="StrClLivSociete" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClRevendeur" class="control-label"></label>
+                <input asp-for="StrClRevendeur" class="form-control" />
+                <span asp-validation-for="StrClRevendeur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivAdr1" class="control-label"></label>
+                <input asp-for="StrClLivAdr1" class="form-control" />
+                <span asp-validation-for="StrClLivAdr1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivAdr2" class="control-label"></label>
+                <input asp-for="StrClLivAdr2" class="form-control" />
+                <span asp-validation-for="StrClLivAdr2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivAdr3" class="control-label"></label>
+                <input asp-for="StrClLivAdr3" class="form-control" />
+                <span asp-validation-for="StrClLivAdr3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivCodePostal" class="control-label"></label>
+                <input asp-for="StrClLivCodePostal" class="form-control" />
+                <span asp-validation-for="StrClLivCodePostal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivVille" class="control-label"></label>
+                <input asp-for="StrClLivVille" class="form-control" />
+                <span asp-validation-for="StrClLivVille" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClLivPays" class="control-label"></label>
+                <input asp-for="StrClLivPays" class="form-control" />
+                <span asp-validation-for="StrClLivPays" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClTel" class="control-label"></label>
+                <input asp-for="StrClTel" class="form-control" />
+                <span asp-validation-for="StrClTel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrEmail" class="control-label"></label>
+                <input asp-for="StrEmail" class="form-control" />
+                <span asp-validation-for="StrEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LhtClWeb" class="control-label"></label>
+                <input asp-for="LhtClWeb" class="form-control" />
+                <span asp-validation-for="LhtClWeb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClActivite" class="control-label"></label>
+                <input asp-for="StrClActivite" class="form-control" />
+                <span asp-validation-for="StrClActivite" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClMetier" class="control-label"></label>
+                <input asp-for="StrClMetier" class="form-control" />
+                <span asp-validation-for="StrClMetier" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClProduits" class="control-label"></label>
+                <input asp-for="StrClProduits" class="form-control" />
+                <span asp-validation-for="StrClProduits" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClOrigineContact" class="control-label"></label>
+                <input asp-for="StrClOrigineContact" class="form-control" />
+                <span asp-validation-for="StrClOrigineContact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClInfo" class="control-label"></label>
+                <input asp-for="StrClInfo" class="form-control" />
+                <span asp-validation-for="StrClInfo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClPriorite" class="control-label"></label>
+                <input asp-for="StrClPriorite" class="form-control" />
+                <span asp-validation-for="StrClPriorite" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateClPremierContact" class="control-label"></label>
+                <input asp-for="DateClPremierContact" class="form-control" />
+                <span asp-validation-for="DateClPremierContact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateClDernierContact" class="control-label"></label>
+                <input asp-for="DateClDernierContact" class="form-control" />
+                <span asp-validation-for="DateClDernierContact" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClStatutCommercial" class="control-label"></label>
+                <input asp-for="StrClStatutCommercial" class="form-control" />
+                <span asp-validation-for="StrClStatutCommercial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClStatutClient" class="control-label"></label>
+                <input asp-for="StrClStatutClient" class="form-control" />
+                <span asp-validation-for="StrClStatutClient" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrClFax" class="control-label"></label>
+                <input asp-for="StrClFax" class="form-control" />
+                <span asp-validation-for="StrClFax" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StrNomCourt" class="control-label"></label>
+                <input asp-for="StrNomCourt" class="form-control" />
+                <span asp-validation-for="StrNomCourt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

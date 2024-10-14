@@ -1,0 +1,137 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "STCDataContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "WepApiTraining",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Feuil1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[T_TempsPassé]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Client]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_ConstatVerif]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Contact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Contrat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_DefautProduction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Etalon]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_EtatFicheIntervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_FicheIntervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Intervenant]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_InterventionClient]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Logiciel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Machine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_PeriodeCalibration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Produit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_SsIntervertion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_Titre]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_TypeAction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_TypeContrat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_TypeFicheIntervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_TypeIntervention]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_TypeLogiciel]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tbl_TC_TypeProduit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[USysApplicationLog]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "desktop-p8rf56o.STCData.dbo",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
